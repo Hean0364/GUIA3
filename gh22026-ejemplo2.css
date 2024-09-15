@@ -1,0 +1,33 @@
+/* ejemplo2.css - SUCARNET */
+
+
+pais {
+    background-color: blue;
+    font-family: Arial,;
+    color: red;
+    
+}
+
+departamento {
+    background-color: green;
+  
+}
+
+
+cabecera {
+    color: white;
+   
+}
+
+
+habitantes {
+    color: red;
+    font-size: 18px;
+  
+}
+
+altura {
+    color: red;
+    font-size: 16px;
+ 
+}

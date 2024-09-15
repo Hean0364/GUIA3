@@ -1,0 +1,63 @@
+/* Estilo para el elemento raíz <pais> */
+pais {
+  display: block;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Estilo para los atributos del elemento <pais> */
+pais::before {
+  content: "Información del País: ";
+  font-weight: bold;
+}
+
+/* Estilo para el contenedor de idiomas */
+idiomas {
+  display: block;
+  margin-top: 10px;
+}
+
+idiomas > oficial {
+  display: block;
+  font-weight: bold;
+}
+
+idiomas > autoctono {
+  display: block;
+  font-style: italic;
+}
+
+idiomas > segundoIdioma {
+  display: block;
+  color: #555;
+}
+
+/* Estilo para los departamentos */
+departamento {
+  display: block;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+departamento::before {
+  content: "Departamento: ";
+  font-weight: bold;
+}
+
+departamento > cabecera {
+  display: block;
+  font-size: 1.1em;
+  color: #222;
+}
+
+departamento > habitantes {
+  display: block;
+  color: #666;
+}
+
+departamento > altura {
+  display: block;
+  font-size: 0.9em;
+  color: #888;
+}

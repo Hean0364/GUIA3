@@ -1,0 +1,107 @@
+/* Estilo para el elemento raíz <pais> */
+pais {
+  display: block;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Mostrar información de atributos del elemento <pais> */
+pais::before {
+  content: "País: ";
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #111;
+}
+
+pais::after {
+  content: attr(nombre) ", Moneda: " attr(moneda) ", Código Telefónico: +" attr(codigoTelefonico) ", Área Territorial: " attr(areaTerritorial);
+  display: block;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Estilo para el contenedor de idiomas */
+idiomas {
+  display: block;
+  margin-top: 10px;
+}
+
+idiomas::before {
+  content: "Idiomas:";
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+idiomas > oficial {
+  display: block;
+  font-weight: bold;
+}
+
+idiomas > autoctono {
+  display: block;
+  font-style: italic;
+}
+
+idiomas > segundoIdioma {
+  display: block;
+  color: #555;
+}
+
+/* Estilo para cada departamento */
+departamento {
+  display: block;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+departamento::before {
+  content: "Departamento: ";
+  font-weight: bold;
+  color: #111;
+}
+
+departamento::after {
+  content: attr(nombre);
+  font-weight: bold;
+  display: block;
+  font-size: 1.1em;
+  color: #222;
+}
+
+/* Estilo para la cabecera del departamento */
+departamento > cabecera {
+  display: block;
+  font-size: 1em;
+  color: #222;
+}
+
+departamento > cabecera::before {
+  content: "Cabecera: ";
+  font-weight: bold;
+}
+
+/* Estilo para el número de habitantes */
+departamento > habitantes {
+  display: block;
+  color: #666;
+}
+
+departamento > habitantes::before {
+  content: "Habitantes: ";
+  font-weight: bold;
+}
+
+/* Estilo para la altura del departamento */
+departamento > altura {
+  display: block;
+  font-size: 0.9em;
+  color: #888;
+}
+
+departamento > altura::before {
+  content: "Altura: ";
+  font-weight: bold;
+}

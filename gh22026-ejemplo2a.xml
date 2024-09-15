@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="gh22026-ejemplo2a.css" ?>
+<!-- ejemplo2.xml  SUCARNET -->
+<pais nombre="El Salvador" moneda="Dólar estadounidense" codigoTelefonico="503" areaTerritorial="21,041 km²">
+  <idiomas>
+    <oficial>Español</oficial>
+    <autoctono>Náhuat</autoctono>
+    <segundoIdioma>Inglés</segundoIdioma>
+  </idiomas>
+
+  <departamento id="1" nombre="San Salvador">
+    <cabecera>San Salvador</cabecera>
+    <habitantes>1,700,000</habitantes>
+    <altura>545 MSNM</altura>
+  </departamento>
+
+  <departamento id="2" nombre="La Libertad">
+    <cabecera>Santa Tecla</cabecera>
+    <habitantes>850,000</habitantes>
+    <altura>920 MSNM</altura>
+  </departamento>
+
+</pais>

@@ -1,0 +1,38 @@
+{
+  "fichero": {
+    "ficha": [
+      {
+        "nombre": "Antonio",
+        "apellido": "Barbero",
+        "direccion": "Calle de Los Andes, 45"
+      },
+      {
+        "nombre": "Heber",
+        "apellido": "Guarita",
+        "direccion": "Avenida del Sol, 22",
+        "telefono": [
+          "+503  7601 6721",
+          "+503 2330 4415"
+        ],
+        "email": "heberantoni.364@gmail.com",
+        "url": "http://www.heberantoni.com"
+      },
+      {
+        "nombre": "Jorge",
+        "apellido": "Gómez",
+        "direccion": "Calle Nueva, 12",
+        "telefono": [
+          "+503 78998542",
+          "+503 78657828"
+        ],
+        "email": "jorge.gomez@example.com",
+        "url": "http://www.jorgegomez.com",
+        "documentacion": {
+          "dui": "01234567-8",
+          "isss": "",
+          "afp": ""
+        }
+      }
+    ]
+  }
+}

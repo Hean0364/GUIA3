@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="gh22026-ejemplo1b.css" ?>
+<!-- ejemplo1.xml  SUCARNET -->
+<fichero>
+  <ficha id="1" fechaingreso="1/11/2012">
+    <nombre>Antonio</nombre>
+    <apellido>Barbero</apellido>
+    <direccion>Calle de Los Andes, 45</direccion>
+  </ficha>
+  
+  <ficha id="2" fechaingreso="5/03/2023">
+    <nombre>Heber</nombre>
+    <apellido>Guarita</apellido>
+    <direccion>Avenida del Sol, 22</direccion>
+    <telefono tipo="móvil">+503  7601 6721</telefono>
+    <telefono tipo="fijo">+503 2330 4415</telefono>
+    <email personal="sí">heberantoni.364@gmail.com</email>
+    <url personal="sí">http://www.heberantoni.com</url>
+  </ficha>
+  
+  <ficha id="3" fechaingreso="10/09/2024">
+    <nombre>Jorge</nombre>
+    <apellido>Gómez</apellido>
+    <direccion>Calle Nueva, 12</direccion>
+    <telefono tipo="móvil">+503 78998542</telefono>
+    <telefono tipo="fijo">+503 78657828</telefono>
+    <email personal="sí">jorge.gomez@example.com</email>
+    <url personal="sí">http://www.jorgegomez.com</url>
+    <documentacion>
+      <dui pais="SV">01234567-8</dui>
+      <isss numero="123456789"/>
+      <afp nombre="AFP Confia" numero="987654321"/>
+    </documentacion>
+  </ficha>
+  
+</fichero>
